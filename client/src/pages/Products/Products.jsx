@@ -50,16 +50,16 @@ const Products = () => {
         </div>
         <div className="filterItem">
           <h2>Filter by Price</h2>
-        </div>
-        <div className="inputItem">
-          <span>0</span>
-          <input
-            type="range"
-            min={0}
-            max={1000}
-            onChange={(e) => setMaxPrice(e.target.value)}
-          />
-          <span>{maxPrice}</span>
+          <div className="inputItem">
+            <span>0</span>
+            <input
+              type="range"
+              min={0}
+              max={1000}
+              onChange={(e) => setMaxPrice(e.target.value)}
+            />
+            <span>{maxPrice}</span>
+          </div>
         </div>
         <div className="filterItem">
           <h2>Sort by</h2>
